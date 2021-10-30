@@ -76,6 +76,7 @@
 }
 
 .section {
+  overflow: hidden;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -361,7 +362,7 @@
 
 ._33px._20px {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .card-wrap {
@@ -944,6 +945,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+  ._33px._20px {
+    margin-bottom: 100px;
+  }
+
+  .card-full {
+    min-height: 470px;
+  }
+
   .zik-zak-line {
     max-height: 200px;
     min-height: 200px;
