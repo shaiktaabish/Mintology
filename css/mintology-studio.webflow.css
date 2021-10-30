@@ -11,7 +11,6 @@
 }
 
 .body {
-  max-width: 1700px;
   margin-right: auto;
   margin-left: auto;
   font-family: Inter, sans-serif;
@@ -934,14 +933,22 @@
   background-image: none;
 }
 
-._16pxcs {
-  max-width: 634px;
+.parent-wrap {
+  width: 100%;
   margin-right: auto;
-  margin-bottom: 65px;
   margin-left: auto;
-  font-size: 16px;
-  line-height: 27px;
-  text-align: center;
+}
+
+._2d-wrap {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 1280px) {
