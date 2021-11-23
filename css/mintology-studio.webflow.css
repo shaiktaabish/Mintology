@@ -331,6 +331,8 @@
 
 .paragraph {
   margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 27px;
   text-align: center;
 }
 
